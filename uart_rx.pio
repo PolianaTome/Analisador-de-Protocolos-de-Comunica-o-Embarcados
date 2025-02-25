@@ -1,0 +1,7 @@
+.program uart_rx
+.side_set 1
+
+entry:
+    wait 1 pin 0
+    in pins, 8
+    push block
